@@ -1,0 +1,56 @@
+ INFO [main] - Elemento encontrado <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Elemento encontrado <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Original Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ERROR [main] - No diff-case document was found in: examples/sample-1-evil-gemini.html
+ INFO [main] - Elemento encontrado <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Original Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Elemento encontrado <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Original Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] -  Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ERROR [main] - missing arguments. Example java javar <original_document> <diff_case> <target_id>
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ERROR [main] - missing arguments. Example java javar <original_document> <diff_case> <target_id>
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Path: html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Path: html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > a[1] 
+ INFO [main] - Matches: 
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn test-link-ok" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okComplete(); return false;"> Make everything OK </a>
+ INFO [main] - Path: html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[1]  > div[0]  > a[0] 
+ INFO [main] - Matched attributes: 
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ERROR [main] - Error reading file
+ERROR [main] - No diff-case document was found in: examples/sample-3-the-scape.html
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#ok" title="Do-Link" rel="next" onclick="javascript:window.okDone(); return false;"> Do anything perfect </a>
+ INFO [main] - Path: html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[2]  > a[0] 
+ INFO [main] - Matched attributes: 
+ INFO [main] - Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+ INFO [main] - Match: <a class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okFinalize(); return false;"> Do all GREAT </a>
+ INFO [main] - Path: html[0]  > body[1]  > div[0]  > div[1]  > div[2]  > div[0]  > div[0]  > div[2]  > a[0] 
+ INFO [main] - Matched attributes: 
