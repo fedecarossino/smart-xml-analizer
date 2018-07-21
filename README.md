@@ -11,10 +11,10 @@ Java version > 1.8
 ### Examples
 to run the app you only hava to do this:
 ```
-java -jar <html_original_file> <html_diff_case> <element_target_id>
+java -jar <jar> <html_original_file> <html_diff_case> <element_target_id>
 ```
 
-* java -jar examples/sample-0-origin.html examples/sample-1-evil-gemini.html make-everything-ok-button
+* java -jar smart-xml-analyzer.jar examples/sample-0-origin.html examples/sample-1-evil-gemini.html make-everything-ok-button
 ````
 Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
 Match: <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
@@ -26,7 +26,7 @@ title
 class
 ````
 
-* java -jar examples/sample-0-origin.html examples/sample-2-container-and-clone.html make-everything-ok-button
+* java -jar smart-xml-analyzer.jar examples/sample-0-origin.html examples/sample-2-container-and-clone.html make-everything-ok-button
 ````
 Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
 Match: <a class="btn test-link-ok" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okComplete(); return false;"> Make everything OK </a>
@@ -38,7 +38,7 @@ href
 title
 ````
 
-* java -jar examples/sample-0-origin.html examples/sample-3-the-escape.html make-everything-ok-button
+* java -jar smart-xml-analyzer.jar examples/sample-0-origin.html examples/sample-3-the-escape.html make-everything-ok-button
 ````
 Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
 Match: <a class="btn btn-success" href="#ok" title="Do-Link" rel="next" onclick="javascript:window.okDone(); return false;"> Do anything perfect </a>
@@ -50,7 +50,7 @@ href
 class
 ````
 
-* java -jar examples/sample-0-origin.html examples/sample-4-the-mash.html make-everything-ok-button
+* java -jar smart-xml-analyzer.jar examples/sample-0-origin.html examples/sample-4-the-mash.html make-everything-ok-button
 ````
 Element: <a id="make-everything-ok-button" class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
 Match: <a class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okFinalize(); return false;"> Do all GREAT </a>
