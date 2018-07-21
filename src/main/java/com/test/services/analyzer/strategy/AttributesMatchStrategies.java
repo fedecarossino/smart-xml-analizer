@@ -8,6 +8,10 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class AttributesMatchStrategies implements MatchStrategies {
+
+    public static final int ATTRIBUTE_WEIGHT = 10;
+    public static final int ZERO = 0;
+
     @Override
     public int match(Element original, Element diffCaseElement, List<String> matches) {
         Map<String, String> originalAttributes = ElementAttributesToMap(original);
@@ -20,9 +24,9 @@ public class AttributesMatchStrategies implements MatchStrategies {
                     String difCaseAttribute = difCaseAttributes.get(key);
                     if(orinalAttribute.equals(difCaseAttribute)){
                         matches.add(key);
-                        return 10;
+                        return ATTRIBUTE_WEIGHT;
                     }
-                    return 0;
+                    return ZERO;
                 }).sum();
     }
 
